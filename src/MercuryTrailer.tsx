@@ -1,5 +1,8 @@
 import React from 'react';
-import {AbsoluteFill, useCurrentFrame, interpolate, Easing} from 'remotion';
+import {AbsoluteFill, useCurrentFrame, useVideoConfig, interpolate, Easing} from 'remotion';
+
+const FPS = 30;
+const DURATION = 1020; // 34 seconds
 
 // Colors
 const COLORS = {
