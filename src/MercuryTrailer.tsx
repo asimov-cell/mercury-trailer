@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill} from '@remotion/core';
+import {AbsoluteFill} from 'remotion';
 
 export const MercuryTrailer: React.FC = () => {
   return (
