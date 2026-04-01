@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Mercury Hub - Cinematic Trailer",
   "scripts": {
-    "start": "remotion studio src/Root.tsx",
-    "build": "remotion render src/Root.tsx:MercuryTrailer out/mercury-trailer.mp4 --log",
+    "start": "remotion studio src/index.ts",
+    "build": "remotion render src/index.ts out/mercury-trailer.mp4 --log",
     "upgrade": "remotion upgrade"
   },
   "dependencies": {
