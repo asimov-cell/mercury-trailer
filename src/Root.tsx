@@ -1,22 +1,17 @@
-import React from 'react';
-import {AbsoluteFill} from 'remotion';
+import {Composition} from 'remotion';
+import {MercuryTrailer} from './MercuryTrailer';
 
-export const MercuryTrailer: React.FC = () => {
+export const RemotionRoot: React.FC = () => {
   return (
-    <AbsoluteFill style={{backgroundColor: '#050510'}}>
-      <div style={{
-        position: 'absolute',
-        inset: 0,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        fontFamily: 'Arial',
-        fontSize: 80,
-        fontWeight: 900,
-        color: '#00ff88',
-      }}>
-        Mercury Hub
-      </div>
-    </AbsoluteFill>
+    <>
+      <Composition
+        id="MercuryTrailer"
+        component={MercuryTrailer}
+        durationInFrames={1020}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+    </>
   );
 };
