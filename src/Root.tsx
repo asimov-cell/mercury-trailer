@@ -1,3 +1,4 @@
+import {registerRoot} from 'remotion';
 import {MercuryTrailer} from './MercuryTrailer';
 
-export {MercuryTrailer};
+registerRoot(() => MercuryTrailer);
